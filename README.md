@@ -1,1 +1,4 @@
 # NARMA-L2-Control
+Simulando um controlador neural NARMA-L2 para um processo de nível de líquidos de 2 a ordem. 
+A vantagem deste controlador em relação aos controladores lineares é que é possível obter, aproximadamente, a mesma dinâmica (tempo de subida/descida, sobresinal/subsinal e erro em regime permanente) em toda a faixa de operação do processo. Esta técnica de controle também é conhecida por “linearização por realimentação” e fornece, considerando-se a saturação do atuador, a resposta mais rápida possível. 
+Uma escolha inadequada dos parâmetros de projeto leva a chaveamentos frequentes do sinal de controle (“chattering”).
